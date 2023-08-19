@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height:80vh;
+    width:100vw;
+}
+
+.root-box{
+    /* border: 1px solid red */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:800px;
+    gap: 30px;
+
+}
+
+
+.main{
+
+    width:444px;
+    height:454px;
+    padding: 30px;
+    /* border: 1px solid black; */
+
+    box-shadow: 0px 6px 8px 0px rgb(0, 0, 0,.25);
+    border-radius: 4px;
+
+
+
+    display: flex;
+    flex-flow: column wrap;
+
+    gap:15px;
+
+}
+
+.main > p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#757575
+    
+}
+
+.main > h1{
+    font-size: 24px;
+    font-weight: 700;
+    color:#333333;
+
+    
+
+}
+
+
+.login-box{
+
+
+    
+
+    /* border: 1px solid red; */
+
+    height:300px;
+    width:360px;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    gap: 20px;
+}
+
+.inpt-box{
+    display: flex;
+    flex-flow: column wrap;
+    gap:12px;
+}
+
+input{
+
+    border: .5px solid #DEDEDE;
+    padding: 12px 15px 12px 15px;
+    border-radius: 6px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+    color:#333333;
+}
+
+button{
+    border:none;
+    color: #fff;
+    background-color: #463EEA;
+    padding: 9px 14px 9px 14px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 800;
+
+}
+
+button:hover{
+    background-color: #554df0;
+    cursor: pointer;
+}
+
+.login-box > p{
+    color:#625BF7;
+    align-self: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
